@@ -1,2 +1,2 @@
 # Pseudocodes
-Repo on Pseudocodes
+Repository on Pseudocodes
