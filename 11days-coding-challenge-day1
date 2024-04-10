@@ -1,6 +1,6 @@
-Enter a number (num)
-IF 
-  num % 2 == 0
-      print "The number is even"
-ELSE 
-  print "The number is odd"
+Procedure
+Sum of two numbers
+input a
+input b
+print sum = (a+b)
+End procedure
