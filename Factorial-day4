@@ -1,0 +1,9 @@
+Procedure Factorial(n)
+    if n is 0:
+        return 1
+    else:
+        result = 1
+        for i from 1 to n:
+            result = result * i
+        return result
+End Procedure
