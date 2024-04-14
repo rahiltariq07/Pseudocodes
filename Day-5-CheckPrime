@@ -1,0 +1,22 @@
+Procedure CheckPrime
+    Input: num (a positive integer)
+    Output: result (prime or not prime)
+    
+    if num is less than 2 then
+        result <- "not prime"
+    else if num is equal to 2 then
+        result <- "prime"
+    else
+        is_prime <- true
+        for i from 2 to the square root of num do
+            if num modulo i is equal to 0 then
+                is_prime <- false
+                exit loop
+        end for
+        if is_prime then
+            result <- "prime"
+        else
+            result <- "not prime"
+        end if
+    end if
+End Procedure
