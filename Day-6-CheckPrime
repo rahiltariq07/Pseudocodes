@@ -1,0 +1,22 @@
+Procedure CheckPrime
+    Input: num (a positive integer)
+    Output: result (prime or not prime)
+
+    // Check if num is less than 2
+    If num < 2 Then
+        result = "not prime"
+        Return result
+    End If
+
+    // Check divisibility from 2 to sqrt(num)
+    For divisor from 2 to SquareRoot(num) Do
+        If num is divisible by divisor Then
+            result = "not prime"
+            Return result
+        End If
+    End For
+
+    // If no divisor found, it's prime
+    result = "prime"
+    Return result
+End Procedure
