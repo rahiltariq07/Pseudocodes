@@ -1,0 +1,14 @@
+Procedure SwapNumbers
+    Input: num1, num2 (two numbers to swap)
+
+    // Temporary variable to store num1
+    temp = num1
+
+    // Swap num1 with num2
+    num1 = num2
+
+    // Assign the value of temp to num2
+    num2 = temp
+
+    // Now num1 contains the value of num2 and num2 contains the original value of num1
+End Procedure
