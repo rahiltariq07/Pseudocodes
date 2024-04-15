@@ -1,4 +1,4 @@
-Procedure SwapNumbers
+Procedure  SwapNumbers
     Input: num1, num2 (two numbers to swap)
 
     // Temporary variable to store num1
