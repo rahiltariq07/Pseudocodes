@@ -1,0 +1,11 @@
+Procedure AreaOfRectangle
+    // Input: Length and Width of the rectangle
+    Input length
+    Input width
+    
+    // Calculate the area
+    area = length * width
+    
+    // Output the result
+    Output "The area of the rectangle is: ", area
+End Procedure
