@@ -1,0 +1,16 @@
+Procedure FibonacciSeries
+    Input: limit (upper limit for Fibonacci series)
+    
+    // Initialize variables
+    a = 0
+    b = 1
+    print a   // Print the first Fibonacci number
+    
+    // Loop to generate Fibonacci series
+    while b <= limit
+        print b
+        temp = b
+        b = a + b
+        a = temp
+    End while
+End Procedure
