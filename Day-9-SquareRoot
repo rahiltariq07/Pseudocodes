@@ -1,0 +1,28 @@
+Procedure SquareRoot
+    Input: num (a positive number)
+    Output: root (approximation of the square root of num)
+
+    // Initialize the initial guess for the square root
+    Let guess = num / 2
+    
+    // Set a tolerance level for the approximation
+    Let tolerance = 0.00001
+    
+    // Iterate until the guess is close enough to the actual square root
+    Repeat
+        // Calculate the next guess using Newton's method
+        Let nextGuess = 0.5 * (guess + num / guess)
+        
+        // Check if the difference between the current guess and the next guess is within the tolerance
+        If absoluteValue(nextGuess - guess) < tolerance
+            // If the difference is within tolerance, the current guess is the approximation of the square root
+            Set root = nextGuess
+            Exit loop
+        End If
+        
+        // Update the guess for the next iteration
+        Let guess = nextGuess
+    Until false
+    
+    Return root
+End Procedure
