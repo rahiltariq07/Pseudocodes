@@ -1,2 +1,2 @@
 # Pseudocodes
-Repository on Pseudocodes
+I am learning about Pseudocodes
