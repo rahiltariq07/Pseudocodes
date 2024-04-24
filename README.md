@@ -1,2 +1,2 @@
 # Pseudocodes
-I am learning about Pseudocodes
+I am learning about Pseudocodes.
